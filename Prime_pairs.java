@@ -1,18 +1,18 @@
 import java.util.*;
 
-public class GlobalMembersPrime_pairs
+public class Prime_pairs
 {
 
-	 public static int Main()
+	 public static int prime()
 	 {
 
 	  int n = 10;
 	  int m = 20;
 	  ArrayList<Integer> v = new ArrayList<Integer>();
-	  for (n; n <= m; n++)
+	  for (n=10; n <= m; n++)
 	  {
 		int j = 2;
-		for (j; j < n; j++)
+		for (j=2; j < n; j++)
 		{
 		  if (n % j == 0)
 		  {
@@ -44,4 +44,10 @@ public class GlobalMembersPrime_pairs
 
 	return 0;
 	 }
-}
+	public static void main(String[] args) {
+		Prime_pairs ob1=new Prime_pairs();
+		ob1.prime();
+	}
+
+
+	 }
