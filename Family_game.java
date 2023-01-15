@@ -1,7 +1,7 @@
-public class Training1 {
+public class Family_game {
     public static void main(String[]args)
     {
-        int n=4;
+        int n=3;
         Boolean b[]=new Boolean[n];
         char ch[]={'x','y','x'};
         int i=0,j=0;
