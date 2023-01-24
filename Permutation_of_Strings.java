@@ -1,3 +1,5 @@
+
+
 public class Permutation_of_Strings {  
     //Function for swapping the characters at position I with character at position j  
     public static String swapString(String a, int i, int j) {  
