@@ -12,7 +12,6 @@ class ChineaseRT{
           y = j; break; // Finding the values for y1, y2,..., yn
         }
       }
-      
       x = x + a[i]*M*y; // x = a1*M1*y1 + a2*M2*y2 + ... + an*Mn*yn
     }
     
