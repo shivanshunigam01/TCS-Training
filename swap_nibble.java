@@ -8,7 +8,7 @@ public class swap_nibble {
             return ((x & 0x0F) << 4 | (x & 0xF0) >> 4);
         }
          
-        // Driver code
+        // Driver code 
         public static void main(String arg[])
         {
             Scanner sc=new Scanner(System.in);
@@ -19,4 +19,4 @@ public class swap_nibble {
         }
         
 }
-
+    
