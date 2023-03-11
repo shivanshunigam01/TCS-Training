@@ -3,24 +3,35 @@ public class UniqueNumber {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         int r1= sc.nextInt();
-        int r2=sc.nextInt(); int k=0;
-       int k1,k2;
+        int r2=sc.nextInt(); 
+        int k=0;
+       int k1,k2=99,k3=51;
+       int f1;
         for(int i=r1;i<=r2;i++){
-            int j=i;
-            
-               k1=j%10;
-               j=j/10;
-               k2=j%10;
-               
-               if(k1==k2){
-                k--;
-
-               }
-                k++;
+           int f=i;
+           
+            while(f>0){
                 
+                k1=f%10;
+                f=f/10;
             
-        }
-        System.out.println(k);
-        
-    }
+                if(k2!=k1){
+                    k2=f%10;
+                    f=f/10;
+                    if(k2==k1)
+                    break;
+                    else if(f==0)
+                    System.out.println(i);
+                }
+                
+                else {
+                  break;
+                    //
+                }
+
+
 }
+
+        }
+    }
+}    
