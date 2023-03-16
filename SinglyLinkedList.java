@@ -33,6 +33,8 @@ public class SinglyLinkedList {
             tail = newNode;    
         }    
     }    
+
+
         
     //display() will display all the nodes present in the list    
     public void display() {    
@@ -52,6 +54,10 @@ public class SinglyLinkedList {
         System.out.println();    
     }    
         
+
+    public void DivideList(int data) {
+        
+    }
     public static void main(String[] args) {    
             
         SinglyLinkedList sList = new SinglyLinkedList();    
@@ -63,6 +69,6 @@ public class SinglyLinkedList {
         sList.addNode(4);    
         sList.addNode(5);
         //Displays the nodes present in the list    
-        // sList.display();    
+        sList.display();    
     }    
 } 
