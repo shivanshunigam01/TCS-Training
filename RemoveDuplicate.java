@@ -56,7 +56,7 @@ class LinkedList {
 		list.head = new Node(12);
 		list.head.next = new Node(11);
 		list.head.next.next = new Node(12);
-		list.head.next.next.next = new Node(21);
+		list.head.next.next.next = new Node(21);0
 		list.head.next.next.next.next = new Node(41);
 		list.head.next.next.next.next.next = new Node(43);
 		list.head.next.next.next.next.next.next
