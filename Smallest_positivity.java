@@ -43,7 +43,7 @@ public class Smallest_positivity {
             arr[i]=sc.nextInt();
         }
 
-		System.out.println("The     vfggfgg bbhjjjjv+missing number is:"+solution(arr));
+		System.out.println("The missing number is:"+solution(arr));
 	}
 }
 
