@@ -33,6 +33,7 @@ public class LongPalinSub {
         String s = "abcbacad";
         //           
         System.out.println(longestPalindrome(s));
+        System.out.println("This is our result!");
     }
 }
 
