@@ -10,11 +10,11 @@ System.out.print("Enter the digits: ");
 number = sc.nextDouble();  
 while(number > 0 ||number<0)  
 {  
-//finds the last digit of the given number    
+   
 digit = number % 10;  
-//adds last digit to the variable sum  
+
 sum += digit;  
-//removes the last digit from the number  
+  
 number = number / 10;  
 }  
 
@@ -46,7 +46,7 @@ double a,b,c=0;
 }
  
     public static void main(String[] args) {
-        addthreevar();
+       //clear addthreevar();
         sumOfDigits();
     }
    
