@@ -11,7 +11,7 @@ number = sc.nextDouble();
 while(number > 0 ||number<0)  
 {  
    
-digit = number % 10;  
+digit = number % 10;  //seperate
 
 sum += digit;  
   
