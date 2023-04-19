@@ -12,7 +12,6 @@ public class sujitequili {
 
        }
 
-       
 int sum=a[0];
 int sum2=a[n-1];
 int i=1,j=n-2;
